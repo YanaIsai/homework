@@ -1,0 +1,203 @@
+
+.container {
+    display: grid;
+    width: 98%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    place-items: stretch stretch;
+}
+
+.header {
+    display: flex; 
+    grid-row: 1 / 2;
+    grid-column: 2 / 6;
+    align-self: center;
+    justify-content: space-between;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.sidebar {
+    grid-row: 1 / 6;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-1 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+    border-radius: 10px;
+    background: #BCE7F0;
+    background-image: url(./assets/Mask_Group.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-2 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+    border-radius: 10px;
+    background-image: url(./assets/Mask_Group_2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content-3 {
+    grid-row: 2 / 4;
+    grid-column: 4 / 5;
+    border-radius: 10px;
+    background-image: url(./assets/image_c_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.content-4 {
+    grid-row: 2 / 4;
+    grid-column: 5 / 6;
+    border-radius: 10px;
+    background-image: url(./assets/image_c_4.png);
+    background-size: cover;
+    background-position: center;
+}
+.content-5 {
+    grid-row: 4 / 6;
+    grid-column: 2 / 3;
+    border-radius: 10px;
+    background-image: url(./assets/image_c_5.png);
+    background-size: cover;
+    background-position: center;
+}
+.content-6 {
+    grid-row: 4 / 6;
+    grid-column: 3 / 4;
+    border-radius: 10px;
+    background-image: url(./assets/image_c_6.png);
+    background-size: cover;
+    background-position: center;
+}
+.content-7 {
+    grid-row: 4 / 5;
+    grid-column: 4 / 6;
+    border-radius: 10px;
+    background-image: url(./assets/image_c_7.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+
+}
+.content-8 {
+    grid-row: 5 / 6;
+    grid-column: 4 / 6;
+    border-radius: 10px;
+    background: #E9E5E2;
+    background-image: url(./assets/image_c_8.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+}
+
+form {
+    display: inline-block;
+}
+
+.nav_header {
+    display: inline-block ;
+}
+
+.menu {
+    padding: 35px;
+}
+
+li {
+    list-style-type: none;
+    padding: 2vh;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar_1 {
+    flex: 1;
+    padding-top: 2vh;
+    padding-left: 3vw;
+}
+
+.sidebar_2 {
+    flex: 4;
+}
+
+.sidebar_3 {
+    flex: 1;
+    padding-top: 10vh;
+    padding-left: 3vw;
+}
+
+.sidebar h1 {
+    margin-top: -10px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+span {
+    margin-left: -2vw;
+}
+
+h2 {
+    vertical-align: middle;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+h3 {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p{
+    font-family: 'Sofia Pro', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content-7 h3 {
+    color: #001AA2;
+}
+
+.content-8 h3 {
+    color: #FD2E24;
+}
